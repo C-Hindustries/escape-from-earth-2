@@ -2,4 +2,8 @@
    opacity: .50;
    width: 75%;
    height: 85%;
+   background: #e6e6e6;
+   border-radius: 5px;
+   border-style: outset outset outset outset;
+   border-width: 8px;
 }
