@@ -8,5 +8,11 @@
    border-width: 8px;
 }
 
-.opaque{
-   opacity: 1;
+.gameDiv:hover{
+   width: 85%;
+   height: 500px;
+   background: #e6e6e6;
+   border-radius: 5px;
+   border-style: outset outset outset outset;
+   border-width: 8px;
+}
