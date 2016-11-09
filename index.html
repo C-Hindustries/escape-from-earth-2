@@ -113,11 +113,34 @@
 	 <!-- game content -->
 	<center>
 	<div class="gameDiv">
-
 	<ul class="nav nav-tabs no-select" role="tablist">
-		<li role="presentation" class="active"><a href="#build" aria-controls="build" role="tab" data-toggle="tab">build</a></li>
-		<li role="presentation" id="researchTab" class="active"><a href="#casino" aria-controls="casino" role="tab" data-toggle="tab">casino</a></li>
+		<li role="presentation" class="active"><a href="#build" aria-controls="build" role="tab" data-toggle="tab">
+			build
+			</a></li>
+		
+		<li role="presentation" id="researchTab" class="active"><a href="#casino" aria-controls="casino" role="tab" data-toggle="tab">
+			casino
+			</a></li>
+		
 </ul>
+		<div role="tabpanel" class="tab-pane fade in active" id="build">
+			 <p>
+   <button id="buttonWork" class= "buttonCenter; largerButton" onclick="getWork()"><strong>spend a minute building <span id="rocketName"> </span>!+<span id="workExtraNum">0.01</span>% and <span id="addPerSecond">0</span>/second</strong></button>
+ </p>
+ <p>
+   <center><table>
+         <td><button id="buttonLearn" class="buttonLeft" onclick="getLearn()"><strong>learn more about building rockets for: £<span id="learnNum">100</span></strong></button></td>
+         <td><div class= "white"><span id="rocketName"> </span><span id="completionNum">0</span>% complete</div></td>
+         <td><button id="buttonEmploy" class="buttonRight" onclick="setTimeout(getEmploy(), 3000)"><strong>employ helpers for: £<span id="employNum">100</span></strong></button></td>
+ </table></center>
+ </p>
+ <p>
+   <button id= "buttonEarn" class="buttonCenter" onclick="getEarn()"><strong>earn £<span id="earnNum">1</span>!</strong></button>
+ </p>
+ <p>
+   <div class= "white">£<span id="moneyNum">0</span></div>
+ </p>
+		</div>
 	</div>
 	</center>
 	
