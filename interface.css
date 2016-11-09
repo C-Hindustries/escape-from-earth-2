@@ -7,3 +7,6 @@
    border-style: outset outset outset outset;
    border-width: 8px;
 }
+
+.opaque{
+   opacity: 1;
