@@ -8,11 +8,3 @@
    border-width: 8px;
 }
 
-div:hover{
-   width: 85%;
-   height: 500px;
-   background: #e6e6e6;
-   border-radius: 5px;
-   border-style: outset outset outset outset;
-   border-width: 8px;
-}
